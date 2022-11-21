@@ -1,0 +1,56 @@
+{
+    "name": "fire",
+    "maps": [
+        {
+            "name": "TTSpawnAPrefab",
+            "id": "773a9807-61b1-4757-88db-b797b3fcfb5d",
+            "actions": [
+                {
+                    "name": "SpawnAPrefab",
+                    "type": "Button",
+                    "id": "b1fc4519-ef37-47a4-b768-792083d9e3b1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f7207c22-7b6f-49cb-a771-89305e3377de",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "clickedup",
+                    "action": "SpawnAPrefab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a58b0694-a459-4a71-b507-063f369212a0",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "TTSpawnAPrefab",
+                    "action": "SpawnAPrefab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "clickedup",
+            "bindingGroup": "clickedup",
+            "devices": []
+        },
+        {
+            "name": "TTSpawnAPrefab",
+            "bindingGroup": "TTSpawnAPrefab",
+            "devices": []
+        }
+    ]
+}
